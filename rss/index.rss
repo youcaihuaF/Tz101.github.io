@@ -1,4 +1,40 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Tz101</title><description>To dream and to build, To fail and to succeed.</description><link>http://tz101.github.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 08:13:33 GMT</lastBuildDate><atom:link href="http://tz101.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Remap keys in OS X tutorial for Emacs lovers</title><description>&lt;h2 id="remapcapslocktocontrol"&gt;Remap Caps Lock to Control&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Tz101</title><description>To dream and to build, To fail and to succeed.</description><link>http://tz101.github.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:29:45 GMT</lastBuildDate><atom:link href="http://tz101.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Xcode project build number use svn revision</title><description>&lt;p&gt;I write a script auto read svn revision number and replace Xcode project build number.&lt;/p&gt;
+
+&lt;p&gt;Select the project under TARGETS then click the +&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/gdAR19v.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;New Run Script Phase&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/Koy3gtD.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy and paste this code &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;I have uploaded this script to GitHub Gist&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/Tz101/945c53824f6b8f441868.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Everytime when you build, project build number will auto&lt;/p&gt;</description><link>http://tz101.github.io/xcode-project-build-number-use-svn-revision/</link><guid isPermaLink="false">d14b5f33-f119-44ed-9e5e-56a970bdcf45</guid><category>Xcode</category><category>svn</category><dc:creator>Tong Zhang</dc:creator><pubDate>Thu, 03 Sep 2015 09:27:53 GMT</pubDate><content:encoded>&lt;p&gt;I write a script auto read svn revision number and replace Xcode project build number.&lt;/p&gt;
+
+&lt;p&gt;Select the project under TARGETS then click the +&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/gdAR19v.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Choose &lt;strong&gt;New Run Script Phase&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://i.imgur.com/Koy3gtD.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy and paste this code &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
+
+&lt;p&gt;I have uploaded this script to GitHub Gist&lt;/p&gt;
+
+&lt;script src="https://gist.github.com/Tz101/945c53824f6b8f441868.js"&gt;&lt;/script&gt;
+
+&lt;p&gt;Everytime when you build, project build number will auto update.&lt;/p&gt;</content:encoded></item><item><title>Remap keys in OS X tutorial for Emacs lovers</title><description>&lt;h2 id="remapcapslocktocontrol"&gt;Remap Caps Lock to Control&lt;/h2&gt;
 
 &lt;p&gt;Open &lt;code&gt;System Preferences&lt;/code&gt;&lt;/p&gt;
 
