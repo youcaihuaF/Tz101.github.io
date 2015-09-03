@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Tz101</title><description>To dream and to build, To fail and to succeed.</description><link>http://tz101.github.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:29:45 GMT</lastBuildDate><atom:link href="http://tz101.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Xcode project build number use svn revision</title><description>&lt;p&gt;I write a script auto read svn revision number and replace Xcode project build number.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Tz101</title><description>To dream and to build, To fail and to succeed.</description><link>http://tz101.github.io/</link><generator>Ghost 0.6</generator><lastBuildDate>Thu, 03 Sep 2015 09:31:40 GMT</lastBuildDate><atom:link href="http://tz101.github.io/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Xcode project build number use svn revision</title><description>&lt;p&gt;I write a script auto read svn revision number and replace Xcode project build number.&lt;/p&gt;
 
 &lt;p&gt;Select the project under TARGETS then click the +&lt;/p&gt;
 
@@ -10,7 +10,7 @@
 
 &lt;p&gt;Copy and paste this code &lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;I have uploaded this script to GitHub Gist&lt;/p&gt;
 
@@ -28,7 +28,7 @@
 
 &lt;p&gt;Copy and paste this code &lt;/p&gt;
 
-&lt;p&gt;&lt;img src="http://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/VvI5FaI.png" alt=""&gt;&lt;/p&gt;
 
 &lt;p&gt;I have uploaded this script to GitHub Gist&lt;/p&gt;
 
