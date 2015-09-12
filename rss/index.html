@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Hacking Gate]]></title><description><![CDATA[To dream and to build, To fail and to succeed.]]></description><link>http://hackinggate.com/</link><generator>Ghost 0.6</generator><lastBuildDate>Fri, 11 Sep 2015 16:31:07 GMT</lastBuildDate><atom:link href="http://hackinggate.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Xcode project build number use svn revision]]></title><description><![CDATA[<p>I wrote a script auto read svn revision number and replace Xcode project build number.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Hacking Gate]]></title><description><![CDATA[To dream and to build, To fail and to succeed.]]></description><link>http://hackinggate.com/</link><generator>Ghost 0.6</generator><lastBuildDate>Sat, 12 Sep 2015 09:43:15 GMT</lastBuildDate><atom:link href="http://hackinggate.com/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Setting up a new Mac OS X]]></title><description><![CDATA[<h2 id="1installxcode">1. Install Xcode</h2>
+
+<p>Download the latest stable version from <a href="https://itunes.apple.com/app/xcode/id497799835">App Store</a> <br>
+Or view a full list available downloads from <a href="https://developer.apple.com/downloads/">Apple Developer</a></p>
+
+<h4 id="11installcommandlinetools">1.1 Install Command Line Tools</h4>
+
+<pre><code>xcode-select --install  
+</code></pre>
+
+<h4 id="12installhomebrewhttpbrewsh">1.2 Install <a href="http://brew.sh/">Homebrew</a></h4>
+
+<pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
+</code></pre>
+
+<h4 id="13installbrewcaskhttpcaskroomio">1.3 Install <a href="http://caskroom.io">Brew Cask</a></h4>]]></description><link>http://hackinggate.com/setting-up-a-new-mac-os-x/</link><guid isPermaLink="false">6e9586ee-6e31-4c9a-a97a-9d1bf360992c</guid><category><![CDATA[osx]]></category><category><![CDATA[Xcode]]></category><dc:creator><![CDATA[Tong Zhang]]></dc:creator><pubDate>Sat, 12 Sep 2015 09:31:43 GMT</pubDate><content:encoded><![CDATA[<h2 id="1installxcode">1. Install Xcode</h2>
+
+<p>Download the latest stable version from <a href="https://itunes.apple.com/app/xcode/id497799835">App Store</a> <br>
+Or view a full list available downloads from <a href="https://developer.apple.com/downloads/">Apple Developer</a></p>
+
+<h4 id="11installcommandlinetools">1.1 Install Command Line Tools</h4>
+
+<pre><code>xcode-select --install  
+</code></pre>
+
+<h4 id="12installhomebrewhttpbrewsh">1.2 Install <a href="http://brew.sh/">Homebrew</a></h4>
+
+<pre><code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  
+</code></pre>
+
+<h4 id="13installbrewcaskhttpcaskroomio">1.3 Install <a href="http://caskroom.io">Brew Cask</a></h4>
+
+<pre><code>brew install caskroom/cask/brew-cask  
+</code></pre>
+
+<p>Many software can be installed from brew &amp; brew cask, if you are not sure, you can use <code>brew search</code>.</p>
+
+<pre><code>brew search chrome  
+</code></pre>
+
+<p>Copy one of the search result you want to install, type <code>brew install</code> then paste.</p>
+
+<pre><code>brew install Caskroom/cask/google-chrome  
+</code></pre>
+
+<h2 id="2setupabeautifulterminal">2. Setup a beautiful Terminal</h2>
+
+<h4 id="21installiterm2httpswwwiterm2com">2.1 Install <a href="https://www.iterm2.com">iTerm2</a></h4>
+
+<pre><code>brew install Caskroom/cask/iterm2  
+</code></pre>
+
+<h4 id="22installohmyzshhttpohmyzsh">2.2 Install <a href="http://ohmyz.sh">oh-my-zsh</a></h4>
+
+<pre><code>sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  
+</code></pre>
+
+<h2 id="3installruby">3. Install Ruby</h2>
+
+<p>OS X has built-in ruby, but I recommend you install the latest version. <br>
+<a href="https://www.ruby-lang.org/en/documentation/installation/#homebrew">Official documentation</a> recommend use Homebrew, it's really easy:</p>
+
+<pre><code>brew install ruby  
+</code></pre>
+
+<p>Or you can use <a href="https://rvm.io/rvm/install">RVM</a> to install Ruby, if you familiar with it.</p>
+
+<h2 id="4installjava">4. Install Java</h2>
+
+<pre><code>brew install Caskroom/cask/java  
+</code></pre>]]></content:encoded></item><item><title><![CDATA[Xcode project build number use svn revision]]></title><description><![CDATA[<p>I wrote a script auto read svn revision number and replace Xcode project build number.</p>
 
 <p>Select the project under TARGETS then click the +</p>
 
